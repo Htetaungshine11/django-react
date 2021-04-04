@@ -4,10 +4,7 @@ import './style.css';
 function App() {
   return (
     <div>
-        <form action="">
-          
-
-        </form>
+        <h1>hello</h1>
     </div>
   );
 }
