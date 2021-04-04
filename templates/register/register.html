@@ -1,0 +1,18 @@
+{%extends '../base.html'%}
+{%block header %}
+{%load static%}
+
+
+{%endblock%}
+
+
+
+{%block body %}
+    <form action="" method="post" id="form1">
+        {%csrf_token%}
+        {{form.as_p}}
+        <button type="submit">register</button>
+    </form>
+    
+   
+{%endblock%}
